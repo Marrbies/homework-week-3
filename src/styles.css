@@ -41,6 +41,7 @@ p {
   padding: 160px 20px;
 }
 
+
 .hero p {
   font-size: 36px;
   font-weight: bold;
@@ -53,6 +54,33 @@ p {
   font-weight: normal;
   line-height: 1.5;
   font-size: 24px;
+}
+nav {
+  padding: 20px 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+nav a {
+  text-decoration: none;
+  color: #272142B2;
+  opacity: 80%;
+  transition: all 150ms ease-in-out;
+}
+nav a:hover, 
+nav li.active a {
+  color: var(--branding-color) ;
+}
+ 
+.logo {
+  max-height: 40px;
 }
 .content-container {
   padding: 160px 20px;
